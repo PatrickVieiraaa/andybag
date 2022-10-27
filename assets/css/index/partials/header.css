@@ -280,10 +280,7 @@ aside {
     font-size: 80px;
   }
 
-  .headerContent button {
-
-   
-  }
+  
   .headerImage {
 
     width: 100%;
@@ -293,7 +290,7 @@ aside {
   .headerImage .braco {
 
     position:absolute;
-    width: 20vh;
+    width: 50vw;
     top: 0vh;
     left: -2vw;
     animation: braco 3.0s linear infinite;
@@ -312,13 +309,13 @@ aside {
   }
   .headerImage p {
     display: block;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'logo';
     color: var(--cor-rosa);
     line-height: 100px;
     position: absolute;
-    top: 20%;
-    left: 26%;
+    top: 0%;
+    left: 36%;
   }
   
   
@@ -331,9 +328,9 @@ aside {
       font-size: 35px;
       font-family: 'logo';
       color: var(--cor-rosa);
-      line-height: 100px;
+      line-height: 75px;
       position: absolute;
-      top: 25%;
+      top: 10%;
       left: 24%;
     }
   }
@@ -341,7 +338,7 @@ aside {
   .headerImage .braco {
 
     position:absolute;
-    width: 12vh;
+    width: 22vh;
     top: 0vh;
     left: -2vw;
     animation: braco 3.0s linear infinite;
@@ -349,6 +346,21 @@ aside {
   
   }
   
+  .headerContent h1 {
+    margin-top: 0px;
+    font-size: 60px;
+    margin-bottom: -30px;
+  }
+
+  .headerContent p {
+
+    font-size: 40px;
+   
+  }
+  .headerContent span {
+    font-size: 30px;
+    margin-top: 10px;
+  }
   
   
   @media (max-width:480px) {
@@ -356,6 +368,7 @@ aside {
     .headerContent h1 {
 
       font-size: 50px;
+      margin-bottom: -20px;
     }
 
     .headerContent p {
@@ -366,6 +379,7 @@ aside {
     .headerContent span {
 
       font-size: 20px;
+      margin-bottom: 0px;
       
     }
 
@@ -384,10 +398,10 @@ aside {
       font-size: 25px;
       font-family: 'logo';
       color: var(--cor-rosa);
-      line-height: 100px;
+      line-height: 50px;
       position: absolute;
-      top: 15%;
-      left: 24%;
+      top: 20%;
+      left: 28%;
     }
 
   }
