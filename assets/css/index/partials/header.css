@@ -3,7 +3,7 @@
 header {
   display: flex;
   height: 90vh;
-  overflow: hidden;
+  
   
 }
 
@@ -34,7 +34,6 @@ header {
   color: var(--cor-roxoClaro);
   font-weight:bolder;
   margin-top: 50px;
- 
   text-align: center;
   line-height: 10px;
 }
@@ -73,10 +72,10 @@ margin-bottom: 30px;
 
   position:absolute;
   width: 50vh;
-  top: -1vh;
-  left: 0vw;
+  top: 0vh;
+  left: -3vw;
   animation: braco 3.0s linear infinite;
- overflow: hidden;
+
 
 
 }
@@ -99,7 +98,7 @@ margin-bottom: 30px;
 .headerImage .mulher {
   position: relative;
   width: 50vh;
-  top: 25%;
+  top: 16.8%;
   left: 24.7vw;
   z-index: 99;
   
@@ -234,8 +233,8 @@ aside {
   .headerImage .mulher {
     position: relative;
     width: 40vh;
-    top: 35%;
-    left: 11.7vw;
+    top: 33.5%;
+    left: 22vw;
     z-index: 99;
     
   
@@ -387,7 +386,7 @@ aside {
     .headerImage .mulher {
       position: relative;
       width: 30vh;
-      top: 37%;
+      top: 40%;
       left: 54.9vw;
       z-index: 99;
       
