@@ -1,0 +1,59 @@
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fb81a6;
+    background-image: linear-gradient(148deg, #fb81a6 0%, #df3661 46%, #a72d4f 100%);
+
+
+}
+
+.tituloMain {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloMain h1 {
+
+    font-size: 45px;
+    font-family: 'logo';
+    color: var(--cor-roxoClaro);
+}
+.container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1200px;
+    height: 100%;
+    gap: 30px;
+    
+}
+
+.cards {
+
+    width: 250px;
+    height: 300px;
+    
+    
+}
+
+.cards img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.3s all;
+    
+}
+
+.cards img:hover {
+
+    opacity: 0.5;
+    
+}
