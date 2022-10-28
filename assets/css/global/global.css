@@ -1,34 +1,27 @@
 /* Variáveis das Cores */
 
 :root {
-
-  --cor-branco: #FFFFFF;
+  --cor-branco: #ffffff;
   --cor-preto: #000000;
   --cor-rosa: #df3661;
   --cor-roxoClaro: #a72d4f;
   --cor-backgroundRosa: #fad3d9;
   --cor-backgroundRoxo: #fb81a6;
-  --fonte: 'Montserrat';
-
-  
-
+  --fonte: "Montserrat";
 }
 @font-face {
-  font-family: 'logo';
+  font-family: "logo";
   src: url(/files/fontes/Amsterdam.ttf);
 }
 /* Personalização do Scrollbar */
 
 html {
-  scrollbar-color: #0000FF #FFFFFF;
+  scrollbar-color: #0000ff #ffffff;
   scrollbar-width: thin;
- 
 }
 
-
-
 ::-webkit-scrollbar-track {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 4px;
   height: 4px;
   border-radius: 10px;
@@ -50,11 +43,11 @@ html {
 /* Fontes */
 
 @font-face {
-  font-family: '';
+  font-family: "";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url('') format('woff');
+  src: url("") format("woff");
 }
 
 /* Normalizar e Padronizar CSS */
@@ -65,26 +58,23 @@ html {
   padding: 0;
   border: 0;
   outline: 0;
-	font-size: 100%;
-	font: inherit;
+  font-size: 100%;
+  font: inherit;
   vertical-align: baseline;
   text-decoration: none;
-  
 }
 
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-  background-color: #FFFFFF;
- 
+  background-color: #ffffff;
 }
 
 body {
   margin: 0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color: #FFFFFF;
- 
+  background-color: #ffffff;
 }
 
 body.bloquear {
@@ -92,8 +82,8 @@ body.bloquear {
 }
 
 ::selection {
-  color: #FFFFFF;
-  background-color: #0000FF;
+  color: #ffffff;
+  background-color: #0000ff;
 }
 
 a {
@@ -104,7 +94,7 @@ a {
   -ms-user-select: none;
   user-select: none;
   -khtml-user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: none;
   -webkit-touch-callout: none;
   -o-user-select: none;
@@ -117,7 +107,7 @@ img {
   -ms-user-select: none;
   user-select: none;
   -khtml-user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: none;
   -webkit-touch-callout: none;
   -o-user-select: none;
@@ -129,7 +119,7 @@ svg {
   -ms-user-select: none;
   user-select: none;
   -khtml-user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: none;
   -webkit-touch-callout: none;
   -o-user-select: none;
@@ -149,7 +139,7 @@ button {
   -ms-user-select: none;
   user-select: none;
   -khtml-user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: none;
   -webkit-touch-callout: none;
   -o-user-select: none;
