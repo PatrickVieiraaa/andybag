@@ -21,7 +21,7 @@ main {
 
     font-size: 45px;
     font-family: 'logo';
-    color: var(--cor-roxoClaro);
+    color: var(--cor-branco);
 }
 .container {
 
@@ -39,6 +39,7 @@ main {
 
     width: 250px;
     height: 300px;
+    position: relative;
     
     
 }
@@ -52,8 +53,49 @@ main {
     
 }
 
-.cards img:hover {
+.cards:hover img {
 
-    opacity: 0.5;
-    
+    transform: scale(1.05);
+}
+.info {
+
+    height: 100vh;
+}
+.infoTitle h2 {
+
+    font-size: 45px;
+    padding: 80px;
+    font-family: 'logo';
+    color: var(--cor-branco);
+    text-align: center;
+    line-height: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+
+    .tituloMain h1 {
+
+        text-align: center;
+        font-size: 25px;
+        line-height: 60px;
+    } 
+    .infoTitle h2 {
+        padding: 0px;
+        padding-top: 80px;
+        font-size: 20px;
+        line-height: 50px;
+    }
 }
