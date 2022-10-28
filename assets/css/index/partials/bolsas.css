@@ -29,5 +29,8 @@ aside {
 }
 /* Responsivo */
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 500px) {
+  nav ul li {
+    display: none;
+  }
 }
