@@ -10,7 +10,28 @@ nav ul {
   gap: 30px;
   color: #fff;
 }
-
+.tituloMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 100px;
+}
+.subtitle {
+  height: 15vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #fb81a6;
+  box-shadow: 0px 0px 22px 3px #fa5183;
+  display: inline-block;
+}
+.subtitle h2 {
+  color: #fff;
+  font-size: 40px;
+  font-family: var(--fonte);
+  font-weight: 600;
+}
 nav ul li {
   color: var(--cor-rosa);
   list-style: none;
@@ -55,6 +76,12 @@ aside {
   -webkit-box-sizing: border-box;
   box-shadow: 2px 2px 4px 0 #df3661;
   animation: efeito 2s linear infinite;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+  padding: 9px;
 }
 .item img {
   max-width: 100%;

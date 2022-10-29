@@ -200,3 +200,12 @@ button::-moz-focus-inner,
   opacity: 0;
   visibility: hidden;
 }
+
+.flutuante img {
+  width: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 1;
+  filter: brightness(150%);
+}

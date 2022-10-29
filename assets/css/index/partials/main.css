@@ -14,7 +14,7 @@ main {
 
 .tituloMain {
   display: flex;
-  height: 30vh;
+  height: 40vh;
   justify-content: center;
   align-items: center;
 }
@@ -23,6 +23,8 @@ main {
   font-size: 45px;
   font-family: "logo";
   color: var(--cor-branco);
+  text-align: center;
+  line-height: 80px;
 }
 .container {
   display: flex;
@@ -48,7 +50,7 @@ main {
 }
 
 .cards:hover img {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 .info {
   height: 100vh;
@@ -61,7 +63,163 @@ main {
   text-align: center;
   line-height: 80px;
 }
+.botao2 {
+  color: #fff;
+  margin-left: 10px;
+}
+.infoTitle {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  line-height: 85px;
+}
+.infoTitle h3 {
+  font-size: 30px;
+  font-family: "logo";
+}
+.infoTitle p {
+  font-size: 30px;
+  font-family: var(--fonte);
+  background-color: #df3661;
+  width: 99.6vw;
+  text-align: center;
+}
+.faleConosco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 30px;
+}
 
+.blocosInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.bloco {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+
+  color: #fff;
+  font-family: "Montserrat";
+  background-color: #df3661;
+}
+.bloco h4 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.botaon3 {
+  margin-top: 45px;
+  text-align: center;
+}
+.sobreMim {
+  display: flex;
+  height: 100vh;
+}
+
+.imageEu {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sobreEu {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.imageEu img {
+  max-width: 100%;
+  width: 40vw;
+  height: 50vh;
+}
+.sobreEu h5 {
+  font-family: "logo";
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 60px;
+  background-color: #df3661;
+  height: 17vh;
+  border-radius: 20px;
+  padding: 39px 20px;
+  box-shadow: 0px 0px 52px 5px #fa5183;
+}
+.sobreEu p {
+  color: #fff;
+  font-size: 20px;
+  font-family: var(--fonte);
+}
+@media (max-width: 700px) {
+  .info {
+    width: 400px;
+  }
+  .flutuante img {
+    right: 25px;
+  }
+  .infoTitle {
+    padding: 20px;
+    line-height: 50px;
+  }
+  .infoTitle h3 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .infoTitle p {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .sobreMim {
+    margin-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageEu {
+    width: 75vw;
+    margin-bottom: 50px;
+  }
+  .imageEu img {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sobreEu {
+    width: 100%;
+  }
+  .sobreEu h5 {
+    font-family: "logo";
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 60px;
+    background-color: #df3661;
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 52px 5px #fa5183;
+    line-height: 50px;
+  }
+  .sobreEu p {
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--fonte);
+    padding: 30px;
+  }
+}
 @media (max-width: 500px) {
   .tituloMain h1 {
     text-align: center;
