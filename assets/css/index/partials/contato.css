@@ -1,0 +1,102 @@
+.contato {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    148deg,
+    #fb81a6 0%,
+    #df3661 46%,
+    #a72d4f 100%
+  );
+}
+
+.contato h1 {
+  font-size: 80px;
+  color: #fff;
+  font-family: "logo";
+}
+
+.imagesContact {
+  display: flex;
+  gap: 20px;
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+.imagesContact img {
+  width: 60px;
+}
+
+button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid #fb81a6;
+  font-size: 14px;
+  font-family: var(--fonte) !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #df3661;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background: #fad3d9;
+  box-shadow: 0 0 30px 5px #fb81a6;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+button::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@media (max-width: 1273px) {
+  .contato h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .contato h1 {
+    font-size: 30px;
+  }
+  nav ul li {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .contato h1 {
+    font-size: 17px;
+  }
+  .flutuante img {
+    left: 20px;
+  }
+}
