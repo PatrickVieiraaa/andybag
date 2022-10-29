@@ -98,10 +98,6 @@
       paraPaginaInterna(url);
     });
   }
-  //efeito de rolagem
-
-  ScrollReveal().reveal(".tituloMain h1", { duration: 4000 });
-  ScrollReveal().reveal(".subtitle h2", { duration: 4000 });
 
   // Ativando TUDO
 

@@ -209,3 +209,9 @@ button::-moz-focus-inner,
   z-index: 1;
   filter: brightness(150%);
 }
+
+@media (max-width: 330px) {
+  .flutuante img {
+    right: 60px !important;
+  }
+}
