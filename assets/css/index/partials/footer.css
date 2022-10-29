@@ -2,9 +2,44 @@
 
 footer {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  line-height: 30px;
+}
+.footerItems {
+  width: 30vw;
+  text-align: center;
+  height: 25px;
+}
+.footerItems p {
+  font-family: "Montserrat";
+  font-size: 13px;
 }
 
+.footerItems img {
+  width: 30px;
+}
+.footerItems h6 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: var(--cor-rosa);
+}
 /* Responsivo */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
+  footer {
+  }
+  .footerContainer {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .footerItems {
+    width: 100vw;
+  }
 }

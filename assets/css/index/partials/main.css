@@ -106,7 +106,7 @@ main {
   width: 250px;
   height: 250px;
   padding: 30px;
-
+  box-shadow: 0px 0px 2px 1px #fa5183;
   color: #fff;
   font-family: "Montserrat";
   background-color: #df3661;
@@ -156,9 +156,11 @@ main {
 .sobreEu p {
   color: #fff;
   font-size: 20px;
+  padding-right: 45px;
   font-family: var(--fonte);
 }
-@media (max-width: 700px) {
+
+@media (max-width: 800px) {
   .info {
     width: 400px;
   }
@@ -178,7 +180,7 @@ main {
     padding: 20px;
   }
   .sobreMim {
-    margin-top: 40vh;
+    margin-top: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -186,7 +188,7 @@ main {
   }
   .imageEu {
     width: 75vw;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   .imageEu img {
     width: 100%;
@@ -218,6 +220,7 @@ main {
     font-size: 20px;
     font-family: var(--fonte);
     padding: 30px;
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 500px) {

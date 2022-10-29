@@ -1,0 +1,19 @@
+aside {
+  display: none;
+}
+.termosServico {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.termosServico h1 {
+  font-size: 50px;
+  color: var(--cor-backgroundRosa);
+  font-family: "logo";
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+.termosServico p {
+  font-size: 20px;
+  font-family: "Montserrat";
+}
