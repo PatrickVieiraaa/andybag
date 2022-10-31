@@ -40,7 +40,9 @@ aside {
   nav {
     justify-content: space-between;
   }
-
+  .logo a {
+    margin-left: 15px;
+  }
   aside {
     position: absolute;
     top: 0;
