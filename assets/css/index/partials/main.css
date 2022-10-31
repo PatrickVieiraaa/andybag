@@ -148,6 +148,7 @@ main {
   font-size: 30px;
   margin-bottom: 60px;
   background-color: #df3661;
+  box-shadow: 2px 2px 4px 0 #df3661;
   height: 17vh;
   border-radius: 20px;
   padding: 39px 20px;
