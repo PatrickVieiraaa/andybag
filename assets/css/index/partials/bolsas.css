@@ -21,10 +21,11 @@ nav ul {
   height: 15vh;
   width: 100%;
   text-align: center;
-  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fb81a6;
   box-shadow: 0px 0px 22px 3px #fa5183;
-  display: inline-block;
 }
 .subtitle h2 {
   color: #fff;
@@ -86,9 +87,6 @@ aside {
 .item img {
   max-width: 100%;
 }
-.item:hover {
-  filter: brightness(110%);
-}
 
 @keyframes efeito {
   0% {
@@ -136,5 +134,8 @@ aside {
 @media (max-width: 500px) {
   nav ul li {
     display: none;
+  }
+  .subtitle {
+    height: 20vh;
   }
 }
