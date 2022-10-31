@@ -42,4 +42,8 @@ footer {
   .footerItems {
     width: 100vw;
   }
+  .footerItems a {
+    color: black;
+    font-family: "Montserrat";
+  }
 }

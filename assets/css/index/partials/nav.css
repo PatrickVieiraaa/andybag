@@ -35,6 +35,12 @@ aside {
   nav ul li {
     display: none;
   }
+  nav {
+    justify-content: space-between;
+  }
+  .logo {
+    margin-left: 20px;
+  }
   aside {
     position: absolute;
     top: 0;
