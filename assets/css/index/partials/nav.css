@@ -5,38 +5,75 @@ nav {
   height: 10vh;
   justify-content: space-around;
   align-items: center;
-  
 }
 
 nav ul {
-
   display: flex;
   gap: 30px;
-  color: #FFF;
+  color: #fff;
 }
 
 nav ul li {
-
   color: var(--cor-rosa);
   list-style: none;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 nav a li:hover {
-
-  color:#a72d4f;
-  
-  
+  color: #a72d4f;
 }
 .logo a {
-
   font-size: 21px;
-  font-family: 'logo';
+  font-family: "logo";
   color: var(--cor-rosa);
 }
-
-
-
+aside {
+  display: none;
+}
 /* Responsivo */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
+  nav ul li {
+    display: none;
+  }
+  aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+  }
+  #menu-opener {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-right: 10px;
+  }
+  #menu-area {
+    width: 0px;
+    height: 100vh;
+    background: var(--cor-backgroundRosa);
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all ease 0.5s;
+  }
+  #menu-area ul,
+  #menu-area li {
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #menu-area li {
+    display: block;
+    padding: 10px;
+    color: #a72d4f;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  #menu-area li:hover {
+    background: #ddd;
+  }
 }

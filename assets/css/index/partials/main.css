@@ -161,9 +161,6 @@ main {
 }
 
 @media (max-width: 800px) {
-  .info {
-    width: 400px;
-  }
   .flutuante img {
     right: 25px;
   }
@@ -237,5 +234,8 @@ main {
     padding-top: 80px;
     font-size: 20px;
     line-height: 50px;
+  }
+  .infoTitle h3 {
+    font-size: 17px;
   }
 }

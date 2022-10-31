@@ -32,11 +32,11 @@
   <!-- Importação do CSS para a página ter estilo -->
   <link href="./assets/css/index/index.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/global/global.css">
-  <link rel="stylesheet" href="/assets/css/index/partials/nav.css">
   <link rel="stylesheet" href="/assets/css/index/partials/main.css">
   <link rel="stylesheet" href="/assets/css/index/partials/footer.css">
   <link rel="stylesheet" href="/assets/css/index/partials/termos.css">
   <link rel="stylesheet" href="/assets/css/index/partials/contato.css">
+  <link rel="stylesheet" href="/assets/css/index/partials/nav.css">
 
 
 
@@ -69,20 +69,27 @@
       </a>
     </ul>
 
+    <aside>
+      <div id="menu-opener" onclick="menuabrir()">
+        <img src="/files/favicons/barra-de-menu.png" width="36">
+      </div>
+      <div id="menu-area">
+        <ul>
+          <a href="/index.html">
+            <li>Home</li>
+          </a>
+          <a href="/produtos/bolsas.html">
+            <li>Produtos</li>
+          </a>
+          <a href="/produtos/contato.html">
+            <li>Contato</li>
+          </a>
+        </ul>
+      </div>
+    </aside>
+
   </nav>
-  <!--menu responsivo-->
-  <aside>
-    <div id="menu-opener" onclick="menuOpened()">
-      <img src="/files/favicons/barra-de-menu.png" width="36">
-    </div>
-    <div id="menu-area">
-      <ul>
-        <li>PRODUTOS</li>
-        <li>ENDEREÇO</li>
-        <li>CONTATO</li>
-      </ul>
-    </div>
-  </aside>
+
   <div class="contato">
     <h1>Entregamos para Maetinga e região!</h1>
     <div class="imagesContact">
@@ -110,6 +117,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="/assets/js/index/nav.js"></script>
 </body>
 
 </html>
