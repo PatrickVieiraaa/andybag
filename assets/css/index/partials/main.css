@@ -163,7 +163,9 @@ main {
   .container {
     width: 100%;
   }
-
+  .bloco {
+    width: 80%;
+  }
   .infoTitle {
     padding: 0px;
     line-height: 50px;
