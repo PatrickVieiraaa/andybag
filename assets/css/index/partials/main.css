@@ -151,7 +151,6 @@ main {
   height: 17vh;
   border-radius: 20px;
   padding: 39px 20px;
-  box-shadow: 0px 0px 52px 5px #fa5183;
 }
 .sobreEu p {
   color: #fff;
@@ -161,11 +160,12 @@ main {
 }
 
 @media (max-width: 800px) {
-  .flutuante img {
-    right: 25px;
+  .container {
+    width: 100%;
   }
+
   .infoTitle {
-    padding: 20px;
+    padding: 0px;
     line-height: 50px;
   }
   .infoTitle h3 {
@@ -180,18 +180,18 @@ main {
     width: 80%;
   }
   .sobreMim {
-    margin-top: 100vh;
+    margin-top: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .imageEu {
-    width: 75vw;
+    width: 50vw;
     margin-bottom: 10px;
   }
   .imageEu img {
-    width: 100%;
+    width: 90%;
     height: 40vh;
     display: flex;
     align-items: center;
@@ -206,13 +206,13 @@ main {
     font-size: 17px;
     margin-bottom: 60px;
     background-color: #df3661;
-    height: 12vh;
+    height: 16vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 0px 0px 52px 5px #fa5183;
+
     line-height: 50px;
   }
   .sobreEu p {
