@@ -122,6 +122,11 @@ main {
 .sobreMim {
   display: flex;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
 }
 
 .imageEu {
@@ -129,27 +134,30 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 60%;
 }
+
 .sobreEu {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  position: relative;
 }
 .imageEu img {
   max-width: 100%;
-  width: 40vw;
-  height: 50vh;
+  height: 100%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 .sobreEu h5 {
   font-family: "logo";
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 60px;
   background-color: #df3661;
   box-shadow: 2px 2px 4px 0 #df3661;
-  height: 17vh;
+  line-height: 60px;
   border-radius: 20px;
   padding: 39px 20px;
 }
@@ -159,7 +167,24 @@ main {
   padding-right: 45px;
   font-family: var(--fonte);
 }
+.botao2 {
+  position: relative;
+}
+.botao3 {
+  color: #fff;
+}
 
+@media (max-width: 1350px) {
+  .sobreMim {
+    max-width: 800px;
+  }
+  .sobreEu h5 {
+    padding: 30px;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+  }
+}
 @media (max-width: 800px) {
   .container {
     width: 100%;
@@ -183,7 +208,7 @@ main {
     width: 80%;
   }
   .sobreMim {
-    margin-top: 90vh;
+    margin-top: 53vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,7 +219,7 @@ main {
     margin-bottom: 10px;
   }
   .imageEu img {
-    width: 90%;
+    width: 100%;
     height: 40vh;
     display: flex;
     align-items: center;
@@ -240,5 +265,16 @@ main {
   }
   .infoTitle h3 {
     font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sobreMim {
+    margin-top: 101vh;
+  }
+}
+@media (max-width: 300px) {
+  .sobreMim {
+    margin-top: 120vh;
   }
 }
