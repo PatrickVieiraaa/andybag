@@ -212,6 +212,7 @@ button::-moz-focus-inner,
 
 @media (max-width: 330px) {
   .flutuante img {
-    right: 60px !important;
+    right: 20px !important;
+    width: 30px;
   }
 }

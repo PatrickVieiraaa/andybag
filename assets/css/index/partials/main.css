@@ -267,14 +267,17 @@ main {
     font-size: 17px;
   }
 }
-
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .sobreMim {
-    margin-top: 101vh;
+    margin-top: 123vh;
+  }
+  .sobreEu p {
+    padding-bottom: 200px;
   }
 }
+
 @media (max-width: 300px) {
-  .sobreMim {
-    margin-top: 120vh;
+  .sobreMim p {
+    font-size: 13px;
   }
 }
