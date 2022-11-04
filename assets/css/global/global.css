@@ -129,8 +129,6 @@ button {
   font-family: inherit;
   line-height: 1.15;
   margin: 0;
-  -moz-appearance: none !important;
-  -webkit-appearance: button;
   text-transform: none;
   overflow: visible;
   cursor: pointer;
@@ -152,21 +150,19 @@ button * {
 input {
   font-family: inherit;
   line-height: 1.15;
-  -moz-appearance: none !important;
   overflow: visible;
 }
 
 textarea {
   font-family: inherit;
   line-height: 1.15;
-  -moz-appearance: none !important;
+
   overflow: auto;
 }
 
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
   cursor: pointer;
 }
 
@@ -183,16 +179,7 @@ button::-moz-focus-inner,
 }
 
 [type="search"] {
-  -webkit-appearance: textfield;
   outline-offset: -2px;
-}
-
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
 }
 
 [hidden] {
