@@ -232,6 +232,7 @@ main {
     font-family: "logo";
     color: #fff;
     font-size: 17px;
+    margin-top: 20vh;
     margin-bottom: 60px;
     background-color: #df3661;
     height: 16vh;
@@ -240,7 +241,6 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-
     line-height: 50px;
   }
   .sobreEu p {
@@ -248,9 +248,14 @@ main {
     font-size: 20px;
     font-family: var(--fonte);
     padding: 30px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+  .sobreMim {
+    padding-top: 133vh;
+    padding-bottom: 60vh;
   }
 }
+
 @media (max-width: 500px) {
   .tituloMain h1 {
     text-align: center;
@@ -265,19 +270,5 @@ main {
   }
   .infoTitle h3 {
     font-size: 17px;
-  }
-}
-@media (max-width: 800px) {
-  .sobreMim {
-    margin-top: 123vh;
-  }
-  .sobreEu p {
-    padding-bottom: 200px;
-  }
-}
-
-@media (max-width: 300px) {
-  .sobreMim p {
-    font-size: 13px;
   }
 }
