@@ -251,7 +251,7 @@ main {
     padding-bottom: 100px;
   }
   .sobreMim {
-    padding-top: 3vh;
+    padding-top: 60vh;
     padding-bottom: 60vh;
   }
 }
@@ -270,5 +270,11 @@ main {
   }
   .infoTitle h3 {
     font-size: 17px;
+  }
+}
+@media (max-width: 400px) {
+  .sobreMim {
+    padding-top: 107vh;
+    padding-bottom: 60vh;
   }
 }
